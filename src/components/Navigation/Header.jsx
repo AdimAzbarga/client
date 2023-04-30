@@ -15,6 +15,7 @@ function Header() {
       </button>
       <h1 className="main-navigation__title">
         <ThreeDRotationIcon fontSize="large" />
+          InsightTouch
       </h1>
       <nav>
         <NavLinks />

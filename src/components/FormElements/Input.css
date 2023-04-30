@@ -1,5 +1,6 @@
 .form-control {
-  margin: 1rem 0;
+  margin: 1rem ;
+
 }
 
 .form-control label,
@@ -16,7 +17,9 @@
 .form-control input,
 .form-control textarea {
   width: 100%;
-  border: none;
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: #F0EBE3;
   padding: 4px;
   outline: none;
   font-size: 1.2em;
@@ -28,16 +31,16 @@
 .form-control textarea:focus {
   outline: none;
   background: #ebebeb;
-  border-color: #510077;
+  border-color: #7D9D9C;
 }
 
 .form-control--invalid label,
 .form-control--invalid p {
-  color: red;
+  color: rgb(204, 71, 71);
 }
 
 .form-control--invalid input,
 .form-control--invalid textarea {
-  border-color: red;
+  border-color: rgb(231, 144, 144);
   background: #ffd1d1;
 }

@@ -8,6 +8,7 @@ import {
 import Header from "./components/Navigation/Header";
 import Footer from "./components/Navigation/Footer/Footer";
 import UploadImg from "./components/FormElements/UploadImage";
+import Auth from "./user/pages/auth";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<UploadImg />} />
+          <Route path="/login" element={<Auth />} />
         </Routes>
         <Footer />
       </Router>
