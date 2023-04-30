@@ -63,6 +63,7 @@ const UploadImage = (props) => {
         <Button type="button" onClick={chooseImageHandler}>
           Select 
         </Button>
+        
      
       </div>
       <div
